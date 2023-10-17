@@ -1,0 +1,406 @@
+*{
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+    box-sizing: border-box; 
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+font-family: 'Gabarito', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #232323;
+}
+
+.mainContainer{
+    border: 2px solid black;
+    height: 120vh;
+   background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url("./image/background\ image.jpg");
+}
+.navbar{
+    height:10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    height:70%;
+   
+}
+.logoImage{
+    height: 100%;
+    width: 100%;
+}
+.options{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.navLang{
+    height: 50%;
+    width: 50%;
+    background: transparent;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), transparent;
+
+
+}
+.singinbutton{
+    display: flex;
+    background-color:#e50914;
+    border-radius: 5%;
+    padding: 10px;
+    font-size: 14px;
+    height: 50%;
+    width: 35%;
+    color: white;
+    border-color: transparent;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text{
+    height: 30;
+    font-size: 48px;
+    color: white;
+    display: flex;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+.text2{
+   
+    height: 13%;
+    font-size: 24px;
+
+    color: white;
+    display: flex;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+.text3{
+    height: 10%;
+    font-size: 20px;
+
+    color: white;
+    display: flex;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+.content{
+height: 90%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-size: 1.70rem;
+color: white;
+
+}
+.contenth2{
+    text-align: center;
+}
+.content h5{
+    margin: 10px;
+}
+.content h4 {
+    margin: 10px;
+}
+.content h2{
+    margin: 10px;
+}
+.emailContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.emailtext{
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), transparent;
+
+}
+.emailbutton{
+    height: 50px;
+    width: 130px;
+    background: transparent;
+    padding: 10px;
+    margin-left: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: #e50914;
+    font-size:medium;
+    cursor: pointer;
+}
+.partTwo{
+    height:85vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.textPart{
+    display: flex;
+    color: white;
+    width: 55%;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   font-size: 1.5rem;
+
+
+}
+.imagepart{
+    
+    width: 50%;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.partThird{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+   align-items: center;
+   justify-content:center;
+}
+.imagePart2{
+    height:90%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.textPart2{
+    height: 50%;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+ 
+  
+
+}
+.partFort{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+   align-items: center;
+   justify-content:center;
+
+}
+.textPart3{
+    height: 50%;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+
+}
+.imagePart3{
+    height:60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.partFifth{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+   align-items: center;
+   justify-content:center;
+
+}
+.imagePart4{
+    height:60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.textPart4{
+    height: 50%;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+
+}
+.partSixth{
+    padding: 10px 12%;
+    height: 140vh;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    
+ 
+
+}
+.table1{
+height: 10%;
+width: 90%;
+background-color: #232323;
+border: 2px solid black;
+text-align: left;
+padding: 10px;
+justify-content: center;
+cursor: pointer;
+
+}
+.table2{
+height: 10%;
+width: 90%;
+background-color: #232323;
+border: 2px solid black;
+text-align: left;
+padding: 10px;
+justify-content: center;
+cursor: pointer;
+
+}
+.table3{
+height: 10%;
+width: 90%;
+background-color: #232323;
+border: 2px solid black;
+text-align: left;
+padding: 10px;
+justify-content: center;
+cursor: pointer;
+
+}
+.table4{
+height: 10%;
+width: 90%;
+background-color: #232323;
+border: 2px solid black;
+text-align: left;
+padding: 10px;
+justify-content: center;
+cursor: pointer;
+
+}
+.table5{
+height: 10%;
+width: 90%;
+background-color: #232323;
+border: 2px solid black;
+text-align: left;
+padding: 10px;
+justify-content: center;
+cursor: pointer;
+
+}
+.table6{
+height: 10%;
+width: 90%;
+background-color: #232323;
+border: 2px solid black;
+text-align: left;
+padding: 10px;
+justify-content: center;
+cursor: pointer;
+}
+.emailContainer2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+  
+
+}
+.emailtext2{
+    height: 50px;
+    width: 250px;
+    background: transparent;
+    /* padding: 5px; */
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), transparent;  
+ 
+}
+.emailbutton2{
+    height: 50px;
+    width: 130px;
+    background: transparent;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: #e50914;
+    font-size:medium;
+    
+}
+.partseventh{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+   padding: 40px 60px 20px 80px;
+   flex-direction: column;
+
+}
+.info{
+    color: white;
+    width: 100%;
+
+}
+.info2{
+    
+    color:white;
+    width: 100%;
+    border-spacing: 30px;
+   
+   
+}
+a{
+    color: white;
+  background-color: transparent;
+  /* text-decoration: underline; */
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.lang{
+    height: 8%;
+    width: 10%;
+    background: transparent;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), transparent;
+}
+.india{
+    color: white;
+}
