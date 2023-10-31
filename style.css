@@ -14,7 +14,7 @@ body{
 .mainContainer{
     border: 2px solid black;
     height: 120vh;
-   background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url("./image/background\ image.jpg");
+   background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url('./image/background\ image.jpg');
 }
 .navbar{
     height:10%;
